@@ -8,6 +8,7 @@ chroma_store/
 venv/
 .venv/
 .ragb/
+.DS_Store
 
 # python
 __pycache__/
