@@ -1,2 +1,14 @@
-.DS_Store
-05_mini_TP_demo_mon_premier_RAG.pdf
+# secrets
+.env
+
+# base vectorielle persistée (generée, pas versionnée)
+chroma_store/
+
+# environnement virtuel
+venv/
+.venv/
+.ragb/
+
+# python
+__pycache__/
+*.pyc
