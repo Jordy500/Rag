@@ -52,3 +52,16 @@ class RAG:
             ],
         )
         return response.choices[0].message.content
+    
+if __name__ == "__main__":
+     rag = RAG()
+
+     while True:
+        question = input("Question (exit pour quitter) : ")
+
+        if question.lower() == "exit":
+            break
+
+        print(rag.answer_question(question))
+        print()
+        
